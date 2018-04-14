@@ -210,9 +210,9 @@ module SteamCondenser::Community
     # @return [String] The base URL for this SteamID
     def base_url
       if @custom_url.nil?
-        "http://steamcommunity.com/profiles/#@steam_id64"
+        "https://steamcommunity.com/profiles/#@steam_id64"
       else
-        "http://steamcommunity.com/id/#@custom_url"
+        "https://steamcommunity.com/id/#@custom_url"
       end
     end
 
